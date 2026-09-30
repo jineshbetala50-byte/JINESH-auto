@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jinesh Auto</title>
+
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 30px;
+    }
+
+    h1 {
+      font-size: 45px;
+      letter-spacing: 4px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #aaa;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      padding: 15px 0;
+      border-bottom: 1px solid #444;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #aaa;
+    }
+
+    .car {
+      background-color: #222;
+      padding: 25px;
+      border-radius: 15px;
+      margin-top: 30px;
+    }
+
+    .car img {
+      width: 100%;
+      max-height: 500px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin: 15px 0;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: white;
+      color: black;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background-color: #aaa;
+    }
+
+    .specs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .spec {
+      background-color: #333;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .spec h4 {
+      margin: 0;
+      color: #aaa;
+      font-size: 13px;
+    }
+
+    .spec p {
+      margin: 8px 0 0;
+      font-weight: bold;
+    }
+
+    .about {
+      background-color: #222;
+      padding: 25px;
+      border-radius: 15px;
+      margin-top: 30px;
+    }
+
+    footer {
+      text-align: center;
+      color: #777;
+      margin-top: 40px;
+      padding: 20px;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="#home">HOME</a>
+    <a href="#cars">CARS</a>
+    <a href="#about">ABOUT</a>
+  </nav>
+
+  <section id="home">
+    <h1>JINESH AUTO</h1>
+    <h2>Cars • Performance • Luxury</h2>
+    <p>Welcome to my automotive world.</p>
+  </section>
+
+
+  <section id="cars">
+
+    <!-- TOYOTA LAND CRUISER 300 -->
+    <div class="car">
+      <h2>🚙 Toyota Land Cruiser 300</h2>
+
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Toyota_Land_Cruiser_300_4x4_ZX_2025_%286%29.jpg"
+        alt="Toyota Land Cruiser 300">
+
+      <p>
+        The Land Cruiser 300 combines luxury, performance
+        and serious off-road capability.
+      </p>
+
+      <div class="specs">
+
+        <div class="spec">
+          <h4>ENGINE</h4>
+          <p>3.3L Twin-Turbo Diesel</p>
+        </div>
+
+        <div class="spec">
+          <h4>DRIVE</h4>
+          <p>4WD</p>
+        </div>
+
+        <div class="spec">
+          <h4>GEARBOX</h4>
+          <p>10-Speed Automatic</p>
+        </div>
+
+        <div class="spec">
+          <h4>TYPE</h4>
+          <p>Full-Size SUV</p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- LAND ROVER DEFENDER -->
+    <div class="car">
+      <h2>🏔️ Land Rover Defender</h2>
+
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Land_rover_Defender.jpg"
+        alt="Land Rover Defender">
+
+      <p>
+        The Land Rover Defender combines rugged design,
+        versatility and serious off-road capability.
+      </p>
+
+      <div class="specs">
+
+        <div class="spec">
+          <h4>ENGINE</h4>
+          <p>3.0L Turbo Diesel</p>
+        </div>
+
+        <div class="spec">
+          <h4>POWER</h4>
+          <p>300 HP</p>
+        </div>
+
+        <div class="spec">
+          <h4>DRIVE</h4>
+          <p>4WD</p>
+        </div>
+
+        <div class="spec">
+          <h4>TRANSMISSION</h4>
+          <p>Automatic</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <section id="about" class="about">
+    <h2>About Jinesh Auto</h2>
+    <p>
+      Jinesh Auto is an automotive website focused on
+      cars, performance, luxury and off-road vehicles.
+    </p>
+  </section>
+
+
+  <footer>
+    © 2026 Jinesh Auto
+  </footer>
+
+</body>
+</html>
